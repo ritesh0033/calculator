@@ -1,0 +1,66 @@
+
+import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Poppins:ital,wght@0,500;1,500&family=Roboto+Condensed:wght@300&family=Urbanist:ital,wght@0,300;1,200&display=swap');
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+width:100%;
+height: 100vh;
+display:flex;
+justify-content:center;
+align-items: center;
+background-color:rgb(94, 91, 91);
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px ;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(113,155,119,0.5 );
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 24px;
+    background: transparent;
+    border-bottom: 0px 3px 15px rgbs(84 84 84 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    columns: #ffff;
+}
+
+input::placeholder{
+    color:#ffff;
+
+}
+button{
+border: none;
+width: 60px;
+height: 60px;
+margin: 10px;
+border-radius: 50%;
+background: transparent;
+color: #ffff;
+font-size: 20px;
+box-shadow: -8px -8px 15px rgba(255, 255,255,0.1);
+cursor: pointer;
+
+}
+
+.equlbtn{
+    background-color: orangered;
+}
+
+.operator{
+    color: darkgoldenrod;
+}
+
+
+
+
+
